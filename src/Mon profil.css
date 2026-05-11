@@ -1,0 +1,45 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f7f2;
+    color: #2f3e34;
+}
+
+/* ============== Navbar =================*/
+.header {
+    background-color: #b7d3c6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2f3e34;
+    font-weight: bold;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: #5a8f7b;
+}
+/* ======================================== */
+.intro {
+    text-align: center;
+    padding: 60px 20px;
+}

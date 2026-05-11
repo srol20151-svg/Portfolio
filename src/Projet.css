@@ -1,0 +1,123 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f7f2;
+    color: #2f3e34;
+}
+
+/* Navbar */
+.header {
+    background-color: #b7d3c6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2f3e34;
+    font-weight: bold;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    color: #5a8f7b;
+}
+
+/* Section projets */
+.projects-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-bottom: 40px;
+    color: #4f6f61;
+}
+
+/* Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+/* Cartes projets */
+.project-card {
+    background-color: #e3efe9;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    flex-grow: 1;
+}
+
+/* Technologies */
+.tech {
+    margin: 15px 0;
+}
+
+.tech span {
+    display: inline-block;
+    background-color: #cad2c5;
+    color: #344e41;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    margin-right: 5px;
+}
+
+/* Boutons */
+.btn {
+    text-align: center;
+    padding: 10px;
+    background-color: #588157;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #3a5f4b;
+}
+
+.btn.disabled {
+    background-color: #9fb3a8;
+    pointer-events: none;
+}

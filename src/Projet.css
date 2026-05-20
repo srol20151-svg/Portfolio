@@ -6,9 +6,20 @@ body {
     color: #2f3e34;
 }
 
-/* Navbar */
+main {
+    margin-top: 80px; 
+}
+
+
+/*=============================== Navbar ==================================*/
 .header {
     background-color: #b7d3c6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .navbar {
@@ -38,6 +49,8 @@ body {
 .navbar a:hover {
     color: #5a8f7b;
 }
+
+/*==========================================================*\
 
 /* Section projets */
 .projects-section {
